@@ -1,5 +1,5 @@
 ###
-# Copyright (c) 2005, Daniel DiPaolo
+# Copyright (c) 2012, Chad Nelson
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -32,7 +32,5 @@ from supybot.test import *
 class PraiseTestCase(PluginTestCase):
     plugins = ('Nadsat',)
     
-    def testAdd(self):
-        self.assertError('nadsat old lady')  # needs $who
 
 # vim:set shiftwidth=4 softtabstop=4 expandtab textwidth=79:
